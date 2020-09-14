@@ -1,6 +1,7 @@
 import tensorflow.keras.backend as K
 from tensorflow.keras.callbacks import LambdaCallback
 import tempfile
+import matplotlib.pyplot as plt
 
 class LearningRateFinder:
     
